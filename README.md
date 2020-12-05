@@ -1,2 +1,2 @@
-# SumJenkins
-A simpler version of the software used in Assessment 2 of DevOps Tools, automated with Jenkins
+# Calc
+A C++ program that allows you to perform basic mathematical functions
