@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         bat 'echo \'Starting build stage\''
-        bat 'install make'
+        bat 'conan install .'
       }
     }
 
