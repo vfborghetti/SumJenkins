@@ -8,5 +8,17 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        sh 'echo \'Starting test stage\''
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        sh 'echo \'Starting deploy stage\''
+      }
+    }
+
   }
 }
