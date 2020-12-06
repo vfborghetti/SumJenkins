@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        sh 'echo \'Starting build stage\''
+        bat 'echo \'Starting build stage\''
       }
     }
 
