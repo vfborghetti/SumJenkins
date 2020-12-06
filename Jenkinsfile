@@ -10,13 +10,13 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'echo \'Starting test stage\''
+        bat 'echo \'Starting test stage\''
       }
     }
 
     stage('Deploy') {
       steps {
-        sh 'echo \'Starting deploy stage\''
+        bat 'echo \'Starting deploy stage\''
       }
     }
 
