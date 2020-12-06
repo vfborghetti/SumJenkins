@@ -12,6 +12,7 @@ pipeline {
     stage('Test') {
       steps {
         bat 'echo \'Starting test stage\''
+        bat '"\\"C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\SumJenkins_main\\Debug\\main.cpp\\""'
       }
     }
 
