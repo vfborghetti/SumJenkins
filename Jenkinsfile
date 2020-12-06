@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         bat 'echo \'Starting build stage\''
-        bat 'apt install cmake -y'
+        bat 'conan install'
       }
     }
 
