@@ -5,8 +5,7 @@ pipeline {
       agent any
       steps {
         bat 'echo \'Starting build stage\''
-        bat 'conan remove "*" -f'
-        bat 'conan install .'
+        bat 'install cmake'
       }
     }
 
