@@ -5,7 +5,8 @@ pipeline {
       agent any
       steps {
         bat 'echo \'Starting build stage\''
-        bat '"\\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe\\""'
+        bat 'conan remove "*" -f'
+        bat 'conan install .'
       }
     }
 
