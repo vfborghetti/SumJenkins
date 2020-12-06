@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         bat 'echo \'Starting build stage\''
-        bat '"\\"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\2019\\\\Community\\\\MSBuild\\\\Current\\\\bin\\\\MSBuild.exe\\""'
+        bat '"\\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\bin\\MSBuild.exe\\""'
       }
     }
 
